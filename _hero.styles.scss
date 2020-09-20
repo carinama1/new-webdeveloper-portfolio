@@ -1,0 +1,55 @@
+.hero {
+    background-color: rgb(0, 1, 54);
+    height: 1100px;
+    width: 100vw;
+    background: radial-gradient(rgb(10, 4, 48), rgb(0, 1, 10));
+}
+
+.hero-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 100%;
+
+    .hero-initial {
+        font-size: 120px;
+        font-weight: bold;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        color: orange;
+        margin: 0px 120px;
+    }
+
+    .hero-desc {
+        height: 280px;
+
+        // border: 1px solid red;
+        &>* {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .big {
+        font-size: 60px;
+        line-height: 100px;
+    }
+
+    button {
+        cursor: pointer;
+        background: none;
+        border: 1px solid orange;
+        color: orange;
+        padding: 10px;
+        font-weight: bold;
+
+        &:hover {
+            background: orange;
+            color: white;
+        }
+    }
+}
