@@ -356,6 +356,10 @@ header {
   font-weight: bold;
 }
 
+.content .projects .project-container .title .hover_link:hover {
+  opacity: 0.8;
+}
+
 @-webkit-keyframes thisanimate {
   0% {
     opacity: 1;
