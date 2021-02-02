@@ -62,8 +62,9 @@
         display: flex;
         align-items: center;
         left: 40px;
-        top: 10px;
+        top: 50%;
         width: 500px;
+        transform: translate(0, -28%);
 
         & > * {
           &:not(:first-child) {
@@ -95,6 +96,7 @@
 
       .experience-main-container {
         position: absolute;
+        align-items: center;
         top: 70px;
         bottom: 0;
         left: 40px;
