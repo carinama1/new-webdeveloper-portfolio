@@ -1,0 +1,39 @@
+.tech-pro-container {
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 24px;
+    .content-1 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      div {
+        padding: 10px;
+        margin: 20px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        // background: #0a0430;
+        background: white;
+        box-shadow: 0 0px 200px -20px rgba(255, 255, 255, 0.4);
+        font-weight: bold;
+        justify-content: center;
+        &:hover {
+          transform: translate(0, -10px);
+          cursor: pointer;
+        }
+        img {
+          height: 70px;
+          width: 140px;
+        }
+      }
+    }
+  }
+}
